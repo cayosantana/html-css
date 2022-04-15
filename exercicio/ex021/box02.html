@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+        nav {
+            background-color: rgb(253, 140, 75);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.281);
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        header {
+            background-color: rgb(255, 207, 148);
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: rgb(255, 207, 148);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.281);
+        }
+        article {
+            background-color: tomato;
+        }
+        article > aside {
+            font-weight: bold;
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 5px;
+
+        }
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            margin: 10px;
+            border-radius: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto nesciunt voluptatibus repellat illo vel fuga culpa aut aliquid at dolor inventore nihil facere, consequatur dolore ad officia voluptate sint.</p>
+                <aside>
+                    Artigo escrito por Rita Klain
+                </aside>
+            </article>
+            <article>
+                <h2>Noticias da Moda</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit dolore provident saepe sed. Officiis nesciunt delectus odio suscipit incidunt odit, ducimus voluptatibus libero molestiae facere? Corporis delectus in eligendi nobis.</p>
+                <aside>
+                    Artigo escrito por Joca bocão
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Site Oficial do Portal</p>
+
+    </footer>
+    <div id="bola">
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes e Elementos</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            color: brown;
+        }
+        h2 {
+            font-family: 'Arial Narrow Bold', sans-serif;
+            color: chocolate;
+        }
+        li {
+            font-weight: bold;
+            text-decoration: underline;
+            color: darkgoldenrod;
+        }
+     
+        li > p {
+            display: none;
+        }
+        li:hover > p {
+            display: block;
+
+        }
+       
+        li:hover {
+            color: darkred;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>APES</h1>
+    <h2>Adote o seu Pet</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A ea, praesentium consequuntur sed suscipit ratione cupiditate deleniti delectus repellendus modi minima molestias et! Neque natus atque animi qui fugiat nihil.</p>
+    <ul>
+        <li id="link">Gatos</li>
+            <p>miau</p>
+    </ul>
+    <h2>Cadastramento</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, rerum exercitationem, voluptatum neque blanditiis excepturi eaque quis ullam iste suscipit dolor beatae. Quasi minima, et corrupti vero deleniti laborum a!</p>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando hover</title>
+    <style>
+        body {
+            background-color: burlywood;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1 {
+            color: crimson;
+        }
+        p {
+            color: crimson;
+            font-weight: bold;
+        }
+        div {
+            color: darkolivegreen;
+            font-weight: bold;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: crimson;
+            font-weight: bold;
+        }
+        div:hover {
+            color: crimson;
+            font-weight: bold;
+    
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu01</h1>
+    <div>
+        Dog
+        <p>Raça</p>
+    </div>
+    
+</body>
+</html>

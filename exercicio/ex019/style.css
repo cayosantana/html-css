@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+    background-color: #eeeeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+h1 {
+    color: teal;
+}
+h1#prime {
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    color: rgb(2, 199, 199);
+}
+.basico {
+    color: tomato;
+}
+.intermediario {
+    color: sienna;
+}
+.avancado {
+    color: rebeccapurple;
+}
