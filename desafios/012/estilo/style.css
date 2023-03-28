@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Delicious +Handdrawn & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
+
+:root {
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Delicious Handrawn', cursiva;
+    --fonte03: 'Passion One', cursiva;
+}
 
 *{
     margin: 0px;
@@ -9,6 +17,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte-padrao);
 }
 header {
     background-color: black;
@@ -18,6 +27,7 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte03);
 }
 header > p {
     padding-bottom: 50px;
@@ -35,6 +45,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 35px;
+    font-family: var(--fonte02);
 }
 section.normal {
     background-color: white;
