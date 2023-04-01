@@ -51,13 +51,32 @@ section {
     font-size: 2em; 
     font-family: var(--fonte3); 
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.normal {
-    background-color: white;
-    color: black;
+    background-color: rgb(31, 30, 30);
+    color: white;
 }
 section.imagem {
     background-color: rgb(36, 35, 35);
-    color: white;
+    color: black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-attachment: fixed;
+}
+section#img01 {
+    background-image: url(../imagens/Cordel\ 01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+section#img02{
+    background-image: url(../imagens/Cordel\ 02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
 }
 footer {
     background-color: black;
