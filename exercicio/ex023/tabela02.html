@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+           
+        }
+        thead {
+            background-color: rgb(1, 110, 173);
+            color: white;
+        }
+        tfoot {
+            background-color: rgb(193, 230, 252);
+            color: rgb(12, 12, 12);
+            
+        }
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estados</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">21 656 301</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">12 777 959</td>
+            </tr>
+            <tr>
+                <td>Belo Horizonte</td>
+                <td class="num">5 178 131</td>
+            </tr>
+            <tr>
+                <td>Recife</td>
+                <td class="num">4 056 323</td>
+            </tr>
+            <tr>
+                <td>Brasília</td>
+                <td class="num">4 012 896</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">3 931 739</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">3 779 939</td>
+            </tr>
+            <tr>
+                <td>Fortaleza</td>
+                <td class="num">3 642 907</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3 468 575</td>
+            </tr>
+            <tr>
+                <td>Goiânia</td>
+                <td class="num">2 456 340</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <th class="num">00000000</th>    
+                
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
