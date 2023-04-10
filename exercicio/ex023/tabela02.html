@@ -22,6 +22,12 @@
             padding: 5px;
            
         }
+        caption {
+            font-size: 0.8em;
+            font-weight: bold;
+            padding: 5px;
+
+        }
         thead {
             background-color: rgb(1, 110, 173);
             color: white;
@@ -39,10 +45,11 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>As 10 cidades mais populosas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estados</th>
-                <th>População</th>
+                <th scope="col">Estados</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
