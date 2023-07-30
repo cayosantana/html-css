@@ -20,4 +20,7 @@ PC em HD: 1024 até 1920
     menu > ul > li {
         display: inline-block;
     }
+    main {
+        width: 800px;
+    }
 }
