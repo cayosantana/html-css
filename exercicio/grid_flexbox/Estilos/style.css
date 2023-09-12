@@ -28,7 +28,7 @@ body, p {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100px 450px 150px;
+    grid-template-rows: 100px 450px 150px 150px;
     grid-template-areas: "cabecalho" "secao" "barra-lateral" "rodape";
 }
 header {
@@ -48,8 +48,6 @@ aside {
  
 footer {
     grid-area: rodape;
+    display: block;
     background-color: #5de05e;
-}
-.part01, .part02, .part03 {
-    width: 50%;
 }

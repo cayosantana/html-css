@@ -17,12 +17,25 @@ PC em HD: 1024px até 1920px
         justify-content: space-evenly;
     }
     .part01, .part02, .part03 {
-        width: 25px;
-    }
-    .part02 {
         width: 50px;
     }
+    
 }
 @media screen and (min-width: 1024px) {
-    
+    .principal {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 100px 500px 150px;
+        grid-template-areas: "cabecalho cabecalho" 
+                             "secao barra-lateral" 
+                             "rodape rodape";
+    }
+    footer {
+        grid-area: rodape;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .part01, .part02, .part03 {
+        width: 50px;
+    }
 }
