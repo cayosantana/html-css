@@ -11,12 +11,37 @@ PC em HD: 1024px até 1920px
 */
 
 @media screen and (min-width: 812px) {
-    menu > ul > li > a {
-        padding: 2px 10px; 
-        display: inline-block; /* visual do link */ 
-        background-color:#EDEDED; 
-        color: #333; 
-        text-decoration: none; 
-        border-bottom:3px solid #EDEDED;
+    body, html {
+        height: 100vh;
     }
+    span#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+    menu > ul > li > a {
+        border-top: none;
+    }
+    main {
+        width: 100vw;
+        height: 100vh;
+    }
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+    } 
+    .item01, .item02, .item03, .item04, .item05, .item06 {
+        width: 30%;
+        height: 30%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.51);
+        
+    }  
 }
