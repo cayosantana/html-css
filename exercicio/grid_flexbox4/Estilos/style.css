@@ -78,6 +78,6 @@ img {
     .grid1 > div.anuncio {
         grid-column: auto; /* em modo automatico */
         grid-row: auto; /* em modo automatico */
-        order: -1; /* sai do ultimo para o primeiro da fila /*
+        order: -1; /* sai do ultimo para o primeiro da fila */
     }
 }
