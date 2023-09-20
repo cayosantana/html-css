@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Versão demais Mídias */
+
+/* Typical Device Breakpoints
+-----------------------------
+Telas pequenas: Até 600px
+Celular: 600px até 812px
+Tablet: 812px até 1024px
+PC em HD: 1024px até 1920px
+*/
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.header {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-left: 10px;
+}
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* O grid vai ter 3 colunas com mesmo tamanho */
+    grid-gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.grid3-item:nth-child(1) /* De todos o Item eu vou falar com o numero 1 */ {
+    grid-row: 1 / 3; /* A imagem grande vai ocupar 3 linhas */
+    min-width: 400px; /* A imagem grande vai ter o tamanho fixo de 400px */
+}
+/* Para que cada foto e legenda virem um grid unico */
+.grid3-item {
+    display: grid;
+    min-width: 200px;
+}
+.grid3-item img {
+    grid-column: 1;
+    grid-row: 1 / 3; /* Para a legenda ficar sobreposta em cima das imagens*/
+    align-self: end;
+}
+.grid3-item p {
+    grid-column: 1;
+    grid-row: 2; /* Para a legenda ficar sobreposta em cima das imagens*/
+    background-color: rgba(193, 194, 194, 0.714);
+    padding: 5px;
+    align-self: end;   
+}
+
+
